@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: reddit-clone-app
-          image: timurginayatov17/reddit-clone-pipeline:1.0.0-2
+          image: timurginayatov17/reddit-clone-app:1.0.0-2
           resources:
             limits:
               cpu: "1"
             requests:
-              cpu: "300m"
+              cpu: "500m"
           ports:
             - containerPort: 3000
